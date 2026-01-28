@@ -6,7 +6,7 @@ BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 PASTA_ENTRADA = os.path.join(BASE_DIR, "..", "fail_cards")
 PASTA_SAIDA   = os.path.join(BASE_DIR, "..", "nome_fail_retangulo_good")
 
-os.makedirs(PASTA_SAIDA, exist_ok=True)
+os.makedirs(PASTA_SAIDA, exist_ok=false)
 
 CORTES = [
     {"x": 0.0, "y": 0.01, "w": 1.0, "h": 0.02},
